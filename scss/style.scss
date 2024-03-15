@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+    font-family: "Russo One";
+    background-color: rgba(16, 24, 50, 0.527);
+
+    section {
+        max-width: 540px;
+        width: 100%;
+        margin: 0 auto;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+
+        main {
+            .manitorr{
+                width: 540px;
+                border-radius: 10px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                gap: 50px;
+                justify-content: end;
+
+
+            }
+
+            .manitor {
+                width: 540px;
+                border-radius: 10px;
+
+                height: 128px;
+                
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                input{
+                    background-color: rgba(24, 31, 51, 1);
+                    border-radius: 10px;
+                    border: none;
+                    width: 100%;
+                    height: 100%;
+                    outline: 0;
+                }
+                input:valid{
+                    color: white;
+                    text-align: end;
+                    font-size: 56px;
+                    font-weight: 400;
+                    line-height: 67px;
+                    letter-spacing: -0.9333333373069763px;
+                    text-align: right;
+                    align-items: center;
+                    color: white;
+
+                }
+
+            }
+
+            .inputs {
+                margin-top: 24px;
+                max-width: 476px;
+                width: 100%;
+                height: 480px;
+                background: rgba(36, 45, 68, 1);
+                border-radius: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 32px;
+                gap: 24px;
+
+                button {
+                    width: 101px;
+                    height: 64px;
+                    border: none;
+                    border-radius: 10px;
+                    // font-family: Saira;
+                    font-size: 40px;
+                    font-weight: 400;
+                    line-height: 63px;
+                    letter-spacing: -0.6666666865348816px;
+                    text-align: center;
+                    color: rgba(67, 74, 89, 1);
+                    box-shadow: 0px -4px 0px 0px rgba(179, 164, 151, 1) inset;
+
+
+
+                }
+
+                #reset {
+                    width: 226px;
+                    height: 64px;
+                    background: rgba(100, 113, 152, 1);
+                    color: white;
+                    box-shadow: 0px -4px 0px 0px rgba(65, 78, 115, 1) inset;
+
+                }
+
+                #tenglik {
+                    width: 226px;
+                    height: 64px;
+                    background: rgba(208, 63, 47, 1);
+                    box-shadow: 0px -4px 0px 0px rgba(147, 38, 26, 1) inset;
+
+
+                    color: white;
+
+                }
+
+                #del {
+                    background: rgba(100, 113, 152, 1);
+                    color: white;
+                    box-shadow: 0px -4px 0px 0px rgba(65, 78, 115, 1) inset;
+
+                }
+
+
+            }
+        }
+    }
+
+}
